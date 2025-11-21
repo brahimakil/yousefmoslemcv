@@ -53,7 +53,7 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       category: "Simulation & Control",
-      items: ["MATLAB", "Simulink (Modeling & Control)", "Proteus"]
+      items: ["MATLAB", "Simulink (Modeling & Control)"]
     },
     {
       category: "Electronics & Embedded",
@@ -65,7 +65,7 @@ export const RESUME_DATA: ResumeData = {
     }
   ],
   softSkills: [
-    "Communication", "Teamwork", "Quick Learning", "Problem Solving", "Analytical Thinking"
+    "Communication", "Teamwork", "Quick Learning", "Problem Solving", "Analytical Thinking" ,
   ],
   languages: ["Arabic (Native)", "English (Fluent)"],
   training: [
@@ -105,8 +105,8 @@ export const RESUME_DATA: ResumeData = {
       name: "Robot Arm Control Design",
       tech: "MATLAB/Simulink",
       details: [
-        "Conducted system identification, PID control, root locus, and Bode plot design.",
-        "Implemented hardware control logic via Simulink modeling."
+        "Completed system identification; currently advancing through control design (PID, Root Locus) and Bode plot analysis.",
+        "Implementing hardware control logic via Simulink modeling."
       ]
     },
     {
@@ -121,7 +121,8 @@ export const RESUME_DATA: ResumeData = {
       name: "Additional Projects",
       details: [
         "FSM based digital door lock.",
-        "Mini Python projects (Snake Game)."
+        "Mini Python projects (Snake Game).",
+        "Xo tic tac toe game."     
       ]
     }
   ]
