@@ -69,7 +69,7 @@ export const RESUME_DATA: ResumeData = {
   ],
   languages: ["Arabic (Native)", "English (Fluent)"],
   training: [
-    "Semicolon Cybersecurity CTF Training (Current)",
+    "Semicolon Cybersecurity CTF Training & Competition (Current)",
     "CCNA Coursework & Certification (Completed)",
     "MATLAB Course",
     "PSpice Course",
