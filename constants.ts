@@ -19,6 +19,15 @@ export const RESUME_DATA: ResumeData = {
   ],
   experience: [
     {
+      role: "Private Tutor",
+      company: "Freelance",
+      period: "10/2025 – Present",
+      achievements: [
+        "Private Tutor (Math, Physics, Chemistry) – Grades 8–12",
+        "Actively teaching 3 students with a focus on concept mastery and academic improvement."
+      ]
+    },
+    {
       role: "Math Support Tutor",
       company: "Al Maaref University",
       period: "02/2025 – 04/2025",
@@ -41,11 +50,11 @@ export const RESUME_DATA: ResumeData = {
   skills: [
     {
       category: "Programming & Software",
-      items: ["Python", "Java", "C/C++", "PIC18 Assembly", "MIPS", "VHDL (Basic)"]
+      items: ["Python", "Java", "C/C++", "PIC18 Assembly", "MIPS", "VHDL (Basic)", "SQL"]
     },
     {
       category: "Core Concepts",
-      items: ["OOP", "Data Structures & Algorithms", "OS Architecture", "Memory Management", "Scheduling"]
+      items: ["OOP", "Data Structures & Algorithms", "OS Architecture", "Process Management", "Scheduling"]
     },
     {
       category: "Networks & Security",
@@ -65,7 +74,7 @@ export const RESUME_DATA: ResumeData = {
     }
   ],
   softSkills: [
-    "Communication", "Teamwork", "Quick Learning", "Problem Solving", "Analytical Thinking" ,
+    "Communication", "Teamwork", "Quick Learning", "Problem Solving", "Analytical Thinking",
   ],
   languages: ["Arabic (Native)", "English (Fluent)"],
   training: [
@@ -93,6 +102,16 @@ export const RESUME_DATA: ResumeData = {
       ]
     },
     {
+      name: "Pharmacy Database Management System",
+      tech: "SQL",
+      details: [
+        "Designed and implemented a relational database system with normalized tables for drugs, categories, origins, purchases, and sales.",
+        "Developed complex SQL queries for sorting, filtering, and calculating sales/profit over custom date ranges.",
+        "Created inventory management features to track available quantities and monitor near-expiry drugs.",
+        "Enabled comprehensive report generation for inventory and financial analysis to support decision-making."
+      ]
+    },
+    {
       name: "Network Configuration & Simulation",
       tech: "Packet Tracer",
       details: [
@@ -102,19 +121,13 @@ export const RESUME_DATA: ResumeData = {
       ]
     },
     {
-      name: "Robot Arm Control Design",
+      name: "Robotic Arm Control System Design & Simulation",
       tech: "MATLAB/Simulink",
       details: [
-        "Completed system identification; currently advancing through control design (PID, Root Locus) and Bode plot analysis.",
-        "Implementing hardware control logic via Simulink modeling."
-      ]
-    },
-    {
-      name: "Residential PV System Design",
-      tech: "Power Engineering",
-      details: [
-        "Designed a complete residential solar PV system including load estimation.",
-        "Performed inverter and battery sizing and component selection based on power requirements."
+        "Designed and simulated a closed-loop control system for a robotic arm to ensure smooth motion for payloads ranging from 25 g to 25 kg.",
+        "Applied system identification and designed PID and lead compensator controllers separately, performing a comparative performance analysis using root locus and frequency-response (Bode) methods.",
+        "Evaluated controllers based on steady-state error, overshoot, and settling time, achieving zero error, zero overshoot, and settling time ≤ 2 s.",
+        "Validated controller robustness and stability under varying payload conditions."
       ]
     },
     {
@@ -122,7 +135,6 @@ export const RESUME_DATA: ResumeData = {
       details: [
         "FSM based digital door lock.",
         "Mini Python projects (Snake Game).",
-        "Xo tic tac toe game."     
       ]
     }
   ]
